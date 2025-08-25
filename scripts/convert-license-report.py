@@ -1,3 +1,9 @@
+#
+# Copyright (c) 2025 by Dribia Data Research.
+# This file is part of project Github,
+# and is released under the MIT License Agreement.
+# See the LICENSE file for more information.
+#
 """Simple script to create a table-like license report.
 
 It takes the output license report of liccheck and converts it
