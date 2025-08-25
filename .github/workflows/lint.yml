@@ -1,0 +1,14 @@
+name: Lint
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize]
+    branches:
+      - main
+
+jobs:
+  call-lint:
+    uses: dribia/driworkflows-lint/.github/workflows/lint.yml@v4

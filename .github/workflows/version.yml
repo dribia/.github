@@ -1,0 +1,12 @@
+name: Version
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  call-version:
+    uses: dribia/driworkflows-release/.github/workflows/version.yml@v2
+    with:
+      repo-name: ${{ github.event.repository.name }}

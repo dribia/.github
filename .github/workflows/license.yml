@@ -1,0 +1,14 @@
+name: License & Headers
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize]
+    branches:
+      - main
+
+jobs:
+  call-license:
+    uses: dribia/driworkflows-license/.github/workflows/license.yml@v4
