@@ -2,7 +2,7 @@
 name: Data exploration
 about: Explora les dades
 title: ''
-type: "data-exploration"
+type: "Data Exploration"
 assignees: ''
 
 ---
