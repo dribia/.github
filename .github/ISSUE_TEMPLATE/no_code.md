@@ -2,7 +2,7 @@
 name: No code
 about: Tasques que no impliquen codi
 title: ''
-type: "no-code"
+type: "No code"
 assignees: ''
 
 ---
