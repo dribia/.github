@@ -19,6 +19,6 @@ _Què has de poder fer després d’acabar la tasca que ara no pots fer._
 
 _Utilitza aquesta secció per desglossar la tasca en parts més petites i manejables._
 
-- [ ] Descripció de la primera tasca
-- [ ] Descripció de la segona tasca
-- [ ] Descripció de la tercera tasca
+- [ ] _Descripció de la primera tasca._
+- [ ] _Descripció de la segona tasca._
+- [ ] _Descripció de la tercera tasca._

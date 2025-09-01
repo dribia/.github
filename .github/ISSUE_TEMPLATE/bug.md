@@ -14,9 +14,9 @@ _Detalla exactament quin és el malfuncionament. Descriu el problema de manera c
 ### Passos per reproduir
 
 _Com has arribat a aquesta situació? Concretament, quins passos has seguit?_
-1. Pas 1
-2. Pas 2
-3. Pas 3
+1. _Pas 1_
+2. _Pas 2_
+3. _Pas 3_
 
 ### Comportament esperat
 

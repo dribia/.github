@@ -19,14 +19,14 @@ _Quina funcionalitat / part del codi s'han de refactoritzar?_
 
 _Utilitza aquesta secció per desglossar la tasca en parts més petites i manejables._
 
-- [ ] Descripció de la primera tasca
-- [ ] Descripció de la segona tasca
-- [ ] Descripció de la tercera tasca
+- [ ] _Descripció de la primera tasca._
+- [ ] _Descripció de la segona tasca._
+- [ ] _Descripció de la tercera tasca._
 
 ### Checklist post-refactor
 
 _Assegura't que tot funciona correctament després de la refactorització._
 
-- [ ] Descripció primera verificació
-- [ ] Descripció segona verificació
-- [ ] Descripció tercera verificació
+- [ ] _Descripció primera verificació._
+- [ ] _Descripció segona verificació._
+- [ ] _Descripció tercera verificació._
