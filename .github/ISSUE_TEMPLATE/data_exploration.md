@@ -1,8 +1,8 @@
 ---
-name: Data exploration
-about: Explora les dades
-title: ''
-type: "Data Exploration"
+name: '🧐 Data exploration'
+about: 'Explora les dades'
+title: ':monocle_face: '
+type: 'Data Exploration'
 assignees: ''
 
 ---

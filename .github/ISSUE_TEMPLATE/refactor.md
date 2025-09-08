@@ -1,8 +1,8 @@
 ---
-name: Refactor
-about: Millora del codi sense canviar-ne el comportament
-title: ''
-type: "refactor"
+name: '♻️ Refactor'
+about: 'Millora del codi sense canviar-ne el comportament'
+title: ':recycle:'
+type: 'refactor'
 assignees: ''
 
 ---
