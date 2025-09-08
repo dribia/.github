@@ -1,7 +1,7 @@
 ---
-name: Bug
+name: ':bug: Bug'
 about: Descriu l'error o malfuncionament del codi actual
-title: ''
+title: ':bug: '
 type: "bug"
 assignees: ''
 
