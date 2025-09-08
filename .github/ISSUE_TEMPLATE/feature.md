@@ -1,8 +1,8 @@
 ---
-name: Feature
-about: Proposa una nova funcionalitat
-title: ''
-type: "feature"
+name: '✨ Feature'
+about: 'Proposa una nova funcionalitat'
+title: ':sparkles: '
+type: 'feature'
 assignees: ''
 
 ---
