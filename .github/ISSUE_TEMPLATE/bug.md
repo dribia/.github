@@ -1,6 +1,6 @@
 ---
 name: '🐛 Bug'
-about: 'Descriu l'error o malfuncionament del codi actual'
+about: "Descriu l'error o malfuncionament del codi actual"
 title: ':bug: '
 type: 'bug'
 assignees: ''
