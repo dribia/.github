@@ -1,0 +1,48 @@
+name: "♻️ Refactor"
+description: "Millora del codi sense canviar-ne el comportament"
+title: ":recycle:"
+type: "refactor"
+assignees: []
+
+
+body:
+
+- type: textarea
+  id: context
+  attributes:
+    label: Context
+    description: "D'on sorgeix la necessitat? Qui ho ha demanat? Quin benefici tindrà a llarg termini (mantenibilitat, claredat, rendiment)?"
+  validations:
+    required: false
+
+- type: textarea
+  id: objectiu
+  attributes:
+    label: Objectiu
+    description: "Quina funcionalitat / part del codi s'han de refactoritzar?"
+  validations:
+    required: false
+
+- type: textarea
+  id: tasques
+  attributes:
+    label: Tasques
+    description: "Utilitza aquesta secció per desglossar la tasca en parts més petites i manejables."
+    placeholder: |
+      - [ ] Descripció de la primera tasca.
+      - [ ] Descripció de la segona tasca.
+      - [ ] Descripció de la tercera tasca.
+  validations:
+    required: false
+
+- type: textarea
+  id: checklist
+  attributes:
+    label: Checklist post-refactor
+    description: "Assegura't que tot funciona correctament després de la refactorització."
+    placeholder: |
+      - [ ] Descripció primera verificació.
+      - [ ] Descripció segona verificació.
+      - [ ] Descripció tercera verificació.
+  validations:
+    required: false
