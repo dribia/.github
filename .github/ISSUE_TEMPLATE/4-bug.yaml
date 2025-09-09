@@ -1,0 +1,61 @@
+name: "🐛 Bug"
+description: "Descriu l'error o malfuncionament del codi actual"
+title: ":bug: "
+type: "bug"
+assignees: []
+
+body:
+
+- type: textarea
+  id: descripcio
+  attributes:
+    label: Descripció
+    description: "Detalla exactament quin és el malfuncionament. Descriu el problema de manera clara i concisa."
+  validations:
+    required: false
+
+- type: textarea
+  id: passos
+  attributes:
+    label: Passos per reproduir
+    description: "Com has arribat a aquesta situació? Concretament, quins passos has seguit?"
+    placeholder: |
+      - Pas 1.
+      - Pas 2.
+      - Pas 3.
+  validations:
+    required: false
+
+- type: textarea
+  id: comportament
+  attributes:
+    label: Comportament esperat
+    description: "Explica què hauria de passar si tot funcionés correctament."
+  validations:
+    required: false
+
+- type: textarea
+  id: idees
+  attributes:
+    label: Idees de resolució
+    description: "Si tens alguna hipòtesi sobre la causa del problema o propostes de solució, escriu-les aquí."
+  validations:
+    required: false
+
+- type: input
+  id: trobat_per
+  attributes:
+    label: Qui l’ha trobat
+    description: "Indica qui ha trobat l'error. Important sobretot si és el client qui l'ha trobat."
+  validations:
+    required: true
+
+- type: textarea
+  id: screenshots
+  attributes:
+    label: Screenshots
+    placeholder: |
+      Si és un problema de frontend, sobretot afegeix captures de pantalla.
+      Si és backend, pots incloure logs, traçats o exemples de peticions/respostes.
+  validations:
+    required: false
