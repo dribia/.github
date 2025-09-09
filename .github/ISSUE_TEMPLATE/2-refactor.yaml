@@ -1,6 +1,6 @@
 name: "♻️ Refactor"
 description: "Millora del codi sense canviar-ne el comportament"
-title: ":recycle:"
+title: ":recycle: "
 type: "refactor"
 assignees: []
 
