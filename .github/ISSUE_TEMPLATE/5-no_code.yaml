@@ -1,8 +1,8 @@
-name: '👔 No code'
-about: 'Tasques que no impliquen codi'
-title: ':necktie: '
+name: "👔 No code"
+description: "Tasques que no impliquen codi"
+title: ":necktie: "
 type: "No code"
-assignees: ''
+assignees: []
 
 body:
 
