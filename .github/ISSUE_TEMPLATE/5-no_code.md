@@ -1,11 +1,8 @@
----
 name: '👔 No code'
 about: 'Tasques que no impliquen codi'
 title: ':necktie: '
 type: "No code"
 assignees: ''
-
----
 
 body:
 
