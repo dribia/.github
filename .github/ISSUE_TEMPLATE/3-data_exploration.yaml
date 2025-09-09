@@ -1,0 +1,36 @@
+name: "🧐 Data exploration"
+description: "Explora les dades"
+title: ":monocle_face: "
+type: "Data Exploration"
+assignees: []
+
+body:
+
+- type: textarea
+  id: data
+  attributes:
+    label: Data a explorar
+    description: "Indica quina taula, dataframe o conjunt concret de dades cal analitzar. Limita bé l’abast per evitar dispersió."
+  validations:
+    required: true
+
+- type: textarea
+  id: objectiu
+  attributes:
+    label: Objectiu
+    description: "escriu què vols aprendre a partir de les dades: Quines preguntes vols respondre? Quina relació, patró o mètrica vols comprovar?"
+  validations:
+    required: false
+
+- type: textarea
+  id: output
+  attributes:
+    label: Output esperat
+    description: "Defineix clarament què esperes obtenir de l’exploració."
+    placeholder: |
+      - [ ] Un resum escrit de conclusions.
+      - [ ] Un gràfic concret (ex: evolució trimestral, distribució de valors...).
+      - [ ] Una taula comparativa (X vs Y).
+      - [ ] Una diapositiva per l’EoS.
+  validations:
+    required: false
