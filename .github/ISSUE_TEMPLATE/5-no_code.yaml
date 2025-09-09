@@ -27,7 +27,7 @@ body:
   attributes:
     label: Tasques
     description: "Utilitza aquesta secció per desglossar la tasca en parts més petites i manejables."
-    value: |
+    placeholder: |
       - [ ] Descripció de la primera tasca.
       - [ ] Descripció de la segona tasca.
       - [ ] Descripció de la tercera tasca.
