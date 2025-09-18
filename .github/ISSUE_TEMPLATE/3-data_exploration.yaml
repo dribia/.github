@@ -9,7 +9,7 @@ body:
 - type: textarea
   id: data
   attributes:
-    label: Data a explorar
+    label: Dades a explorar
     description: "Indica quina taula, dataframe o conjunt concret de dades cal analitzar. Limita bé l’abast per evitar dispersió."
   validations:
     required: true
@@ -18,7 +18,7 @@ body:
   id: objectiu
   attributes:
     label: Objectiu
-    description: "escriu què vols aprendre a partir de les dades: Quines preguntes vols respondre? Quina relació, patró o mètrica vols comprovar?"
+    description: "Escriu què vols aprendre a partir de les dades: Quines preguntes vols respondre? Quina relació, patró o mètrica vols comprovar?"
   validations:
     required: false
 
