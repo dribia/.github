@@ -1,0 +1,58 @@
+name: "🧐 Exploration"
+description: "Explora un conjunt de dades utilitzant mètodes estadístics o models de ML"
+title: ":monocle_face: "
+type: "Exploration"
+assignees: []
+
+body:
+
+- type: textarea
+  id: data
+  attributes:
+    label: Dades a explorar
+    description: "Indica clarament quina taula, dataframe o conjunt concret de dades cal utilitzar. Limita bé l’abast per evitar dispersió."
+  validations:
+    required: true
+
+- type: textarea
+  id: methods
+  attributes:
+    label: Metodologia a utilitzar
+    description: "Especifica quins models de ML o eines estadístiques vols utilitzar per respondre a la pregunta."
+    placeholder: |
+      - Tendències i variabilitat.
+      - Correlacions.
+      - Regressió logística.
+      - Clustering.
+      - Catboost.
+
+  validations:
+    required: true
+
+- type: textarea
+  id: objectiu
+  attributes:
+    label: Objectiu
+    description: "Explica què vols aprendre a partir de les dades o els models: Quines preguntes vols respondre? Quina relació, patró o mètrica vols comprovar?"
+  placeholder: |
+      - Les vendes tenen patrons estacionals?
+      - Quin producte es va vendre més entre els joves?
+      - Hi ha alguna relació entre el tipus de material i la durabilitat?
+      - Podem predir les vendes a nivell SKU fent servir els últims 6 mesos de dades? amb quina accuracy?
+  validations:
+    required: true
+
+- type: textarea
+  id: output
+  attributes:
+    label: Output esperat
+    description: "Defineix clarament quin ha de ser l'output de la tasca."
+    placeholder: |
+      - Un resum escrit de conclusions.
+      - Un gràfic concret (ex: evolució trimestral, distribució de valors...).
+      - Una taula comparativa (X vs Y).
+      - Una diapositiva per l’EoS.
+      - El millor score F1 obtingut amb cert split de train/test.
+      - La importància de les variables que contribueixen més a la predicció amb un model senzill.
+  validations:
+    required: true
