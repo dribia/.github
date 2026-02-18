@@ -48,7 +48,7 @@ body:
     label: Qui l’ha trobat
     description: "Indica qui ha trobat l'error. Important sobretot si és el client qui l'ha trobat."
   validations:
-    required: true
+    required: false
 
 - type: textarea
   id: screenshots
