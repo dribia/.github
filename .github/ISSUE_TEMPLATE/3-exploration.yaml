@@ -12,7 +12,7 @@ body:
     label: Dades a explorar
     description: "Indica clarament quina taula, dataframe o conjunt concret de dades cal utilitzar. Limita bé l’abast per evitar dispersió."
   validations:
-    required: true
+    required: false
 
 - type: textarea
   id: methods
@@ -26,7 +26,7 @@ body:
       - Clustering.
       - Catboost.
   validations:
-    required: true
+    required: false
 
 - type: textarea
   id: objectiu
@@ -39,7 +39,7 @@ body:
       - Hi ha alguna relació entre el tipus de material i la durabilitat?
       - Podem predir les vendes a nivell SKU fent servir els últims 6 mesos de dades? amb quina accuracy?
   validations:
-    required: true
+    required: false
 
 - type: textarea
   id: output
@@ -54,4 +54,4 @@ body:
       - El millor score F1 obtingut amb cert split de train/test.
       - La importància de les variables que contribueixen més a la predicció amb un model senzill.
   validations:
-    required: true
+    required: false
